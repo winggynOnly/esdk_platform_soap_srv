@@ -1,0 +1,10 @@
+//ext.zipFileName = 'platform-soap-srv'
+
+addDependentProject(project, "compile", "esdk_platform_common")
+addDependentProject(project, "compile", "esdk_platform_interface")
+
+dependencies {
+	compile ':log4j:1.2.16'
+	compile ':cxf:2.6.14'
+	compile ':servlet-api'
+}
